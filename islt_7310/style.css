@@ -1,1 +1,8 @@
-h1 {color: #6600ff;}
+h1 {color: #6600ff;} 
+footer {font-size: 10pt;}
+a:link {color: blue;}
+a:hover {color: aqua;}
+a:focus {color: aqua;}
+a:visited {color: fuchsia;}
+a:focus {color: fuchsia;}
+a {text-decoration: none; font-size: 10pt;} 
