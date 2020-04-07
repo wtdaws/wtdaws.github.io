@@ -1,4 +1,10 @@
-h1 {color: #6600ff;} 
+h1 {color: #339999; font-size: 3em; font-family: "Helvetica", sans-serif;}
+h3 {color: #339966; font-size: 1.5em; clear: left;}
+h3+p {margin-left: 2em; clear: left;}
+#img1 {float: left;}
+.paragraph {font-family: "Lato", sans-serif;}
+#now {color: #336699;}
+#future {color: #993333;}
 footer {font-size: 10pt;}
 a:link {color: blue;}
 a:hover {color: aqua;}
