@@ -1,14 +1,58 @@
-h1 {color: #006666; font-size: 3em; font-family: "Helvetica", sans-serif; background-color: powderblue; border: 3px solid black;}
+/*
+
+*****************************************************************************
+
+Title:  Style sheet
+
+Use:  Sets parameters for website design.
+
+Author:  Wendy Dawson
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 8, 2020
+
+Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
+
+******************************************************************************
+
+        */
+header {
+    margin: 0; padding:0;
+    border-top: 3px solid #006666;
+    border-bottom: 3px solid #000000;
+    background-color: #006666; 
+    position: relative;
+    height: 80px;
+    width: 100%;
+    bottom: 0px; right: 0px; left: 0px;}
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: "Lato", sans-serif; 
+    background-color: powderblue; 
+    border: 3px solid black; text-align: center;}
 body {background-color: whitesmoke;}
+body {margin: 15px;}
 h3 {color: #339966; font-size: 1.5em; clear: left;}
 h3+p {margin-left: 2em; clear: left;}
 #img1 {float: left; padding: 20px; margin: 20px;}
+p {font-family: "Lato", sans-serif}
 .paragraph {font-family: "Lato", sans-serif;}
 #now {color: #336699;}
 #future {color: #993333;}
-footer {font-size: 10pt;}
-footer {border-top: 3px solid #000000;}
-a:link {color: blue;}
+ul.b {list-style-type: circle;}
+li.smile {list-style-type: circle;}
+footer {font-size: 10pt; color: white; text-align: center;}
+footer {
+    margin: 0; padding: 5px;
+    border-top: 3px solid #000000;
+    background-color: #006666; 
+    position: relative;
+    height: 80px;
+    width: 100%;
+    bottom: 0px; right: 0px; left: 0px;}
+a:link {color: white;}
 a:hover {color: aqua;}
 a:focus {color: aqua;}
 a:visited {color: fuchsia;}
