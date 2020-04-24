@@ -15,7 +15,7 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 8, 2020
 
-Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
+Tested:  April 24, 2020; Passed on Internet Explorer and Chrome browsers.
 
 ******************************************************************************
 
@@ -23,9 +23,28 @@ Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
                <meta charset="utf-8">
                <title>Portfolio Background Page</title>
                 <link rel="stylesheet" href="style.css">
+                <link rel= "stylesheet" href= "nav.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
             <style> 
                 #credit {font-style: italic; font-size: 10pt;} </style>
 <body>
+    <nav>
+         <label id="hamburger">&#9776;</label>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li><a href="#project.html">Projects</a>
+                    <ul id="mobileHide">
+                        <li><a href="#Project1">Project 1</a></li>
+                        <li><a href="#Project2">Project 2</a></li>
+                        <li><a href="#Project3">Project 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li  class="lastMobile"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
      <header>
          <h1>Background</h1>
     </header>

@@ -15,7 +15,7 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: March 25, 2020
 
-Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
+Tested:  April 24, 2020; Passed on Internet Explorer and Chrome browsers.
 
 ******************************************************************************
 
@@ -23,12 +23,33 @@ Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
         <meta charset="utf-8">
         <title>Portfolio Website Home Page</title>
             <link rel= "stylesheet" href= "style.css">
+            <link rel= "stylesheet" href= "nav.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     </head>
     
     <body>
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li><a href="#project.html">Projects</a>
+                    <ul id="mobileHide">
+                        <li><a href="#Project1">Project 1</a></li>
+                        <li><a href="#Project2">Project 2</a></li>
+                        <li><a href="#Project3">Project 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li class="lastMobile"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <header>
             <h1>Wendy Dawson</h1>
         </header>
+
         <img id="img1" src="images/Wendy.jpg" alt="This is a photo" height="160" width="160">
         
         <div>
@@ -60,7 +81,7 @@ Tested:  April 8, 2020; Passed on Internet Explorer and Chrome browsers.
         </main>
         
         <footer>
-            <p>&copy; 2020 Wendy Dawson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=mailto:wd7t6@mail.misouri.edu><em>wd7t6@mail.missouri.edu</em></a></p>
+            <p>&copy; 2020 Wendy Dawson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="link" href=mailto:wd7t6@mail.misouri.edu><em>wd7t6@mail.missouri.edu</em></a></p>
         </footer>
     </body>
 </html>
