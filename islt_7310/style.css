@@ -73,7 +73,9 @@ div.video {margin:20px;padding: 20px;}
     background-repeat:no-repeat;
     background-size: cover;
     min-height:100%;}
-
+#icons {background-color: whitesmoke;
+    text-align: center;
+    padding-top: 17px;}
 
 @media screen and (max-width:640px) {
     img {float: left; padding: 20px; margin: 20px;}
