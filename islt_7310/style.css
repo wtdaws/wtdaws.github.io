@@ -12,11 +12,12 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 8, 2020
 
-Tested:  April 24, 2020; Passed on Internet Explorer and Chrome browsers.
+Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
 
 ******************************************************************************
 
         */
+* {font-family: "roboto", sans-serif;}
 header {
     margin: 0; padding:0;
     border-top: 3px solid #00E6E6;
@@ -33,7 +34,8 @@ h1 {color: #332F2E;
     padding-bottom: 10px;
     padding-top: 10px;}
 body {background-color: whitesmoke;}
-body {margin: 15px;}
+body {margin-top: 15px;}
+main {border-bottom: 6px solid #332F2E;}
 main.homepg {margin-top: 10px; padding-top:10px;}
 h1.myname {font-family: "Kaushan Script", cursive;margin-bottom: 10px;}
 h3 {color: #339966; font-size: 1.5em; clear: left;}
@@ -48,7 +50,8 @@ li.smile {list-style-type: circle;}
 footer {font-size: 10pt; color: white; text-align: center;}
 footer {
     margin: 0; padding: 5px;
-    border-top: 6px solid #332F2E;
+    border-top: 20px solid #268080;
+    border-bottom: 6px solid #332F2E;
     background-color: #268080; 
     position: relative;
     height: 150px;
@@ -64,18 +67,31 @@ footer {
 .reflect2 {text-indent: 2em;}
 main.samebox {margin: 20px;
     padding: 20px;}
+container.button {padding: 10px; background-color: #332F2E; border-radius: 2em; text-align: center; color: white;}
+a.scholarly {padding: 10px; background-color: #332F2E; border-radius: 2em; text-align: center;}
+container a.scholarly {color: white; text-decoration: none;}
+a.scholarly:hover {color: aqua;}
+div.video2 {padding: 40px;}
 
 .contact1 {float: left;padding: 20px; margin: 20px;}
 
 div.video {margin:20px;padding: 20px;}
 
-#resumepg {background-image:url(images/libbooks.png);
+#resumepg {background-image:url(images/libbooks2.png);
     background-repeat:no-repeat;
     background-size: cover;
     min-height:100%;}
-#icons {background-color: whitesmoke;
-    text-align: center;
-    padding-top: 17px;}
+img#phone {background-color: white; padding: 17px;}
+img#envelope {background-color: white; padding: 17px;}
+#section1 {padding: 120px;
+    margin-top:30px;}
+#project1 {text-align: center;}
+#section2 {padding: 120px;background-color: #332f2e0b;}
+#project2 {text-align: center;}
+#section3 {padding: 120px;}
+#project3 {text-align: center;}
+#phone:hover {transform: scale(2);}
+#envelope:hover {transform: scale(2);}
 
 @media screen and (max-width:640px) {
     img {float: left; padding: 20px; margin: 20px;}
