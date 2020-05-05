@@ -48,20 +48,45 @@ Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
          <header>
             <h1>Contact</h1>
         </header>
-        
+        <main class="contactMain">        
         <img id="img1" src="images/Wendy.jpg" alt="This is a photo" height="160" width="160">
         
         <section class="contact1">
-            <h5>Contact information</h5>
+            <h3>Comment Form:</h3>
+            <form action="mailto:wd7t6@mail.missouri.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+                <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" autofocus required>
+                </div>
+                <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                <label for="message">Message:</label>
+                <textarea id="textarea"></textarea>
+                </div>
+                <div>
+                <button type="submit" id="button1">Submit</button>
+                <button type="reset" id="button2">Reset</button>
+                </div>
+            </form>
+             </section>
+            <aside id="contact">
+                <section class="contact1">
+                <h3>Contact Me:</h3>
             <div>
-                <p>Email me: <br><a href=mailto:wd7t6@mail.misouri.edu><em>wd7t6@mail.missouri.edu</em></a></p>
+                <p class="contactinfo">Email me:<br><a  class="link" href=mailto:wd7t6@mail.misouri.edu>wd7t6@mail.missouri.edu</a></p>
             </div>
             <div>
-                <p><a href=tel:555-555-5555><em>Call me</em></a></p>
+                <p class="contactinfo">Call me:<br><a class="link" href=tel:555-555-5555>888-888-8888</a></p>
             </div>
-        </section>
-        <main class="contactMain">
-        <h3>Comment Form</h3>
+            </section>
+            </aside>
         </main>
         
         <footer id="resumepg">

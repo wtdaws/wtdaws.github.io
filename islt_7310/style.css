@@ -93,6 +93,32 @@ img#envelope {background-color: white; padding: 17px;}
 #phone:hover {transform: scale(2);}
 #envelope:hover {transform: scale(2);}
 
+/*style for background table*/
+#myTable {border-collapse: collapse;
+    width: 100%;
+    border: 2px solid magenta;}
+#Headrow, #Lastrow {background-color: #339966;}
+tbody tr:nth-last-of-type(odd) {background-color: #332f2e0b;}
+
+/*style for contact form*/
+main.contactMain {width: 100%; height: 350px; padding-top: 100px; padding-bottom: 100px;}
+aside#contact {float: right; width: 33%;height: 350px;}
+label {float: left;
+    width: 6em;}
+input, #textarea {margin-left: 2em;
+    margin-bottom: 1em;}
+textarea {height: 5em; width: 25em; font-family: "Lato", sans-serif;}
+#button1 {margin-left: 9em;padding: 10px 20px 10px 20px; background-color: #332F2E; border-radius: 2em; text-align: center; color: white;}
+#button1:active {color: aqua;}
+#button1:hover {color: aqua;}
+#button2 {margin-left: 1em;padding: 10px 20px 10px 20px; background-color: #332F2E; border-radius: 2em; text-align: center; color: white;}
+#button2:active {color: aqua;}
+#button2:hover {color: aqua;}
+p.contactinfo {padding: 10px 20px 10px 20px;}
+a.link {margin-left: 5em;padding: 10px 20px 10px 20px; background-color: #332F2E; border-radius: 2em; text-align: center; color: white;text-decoration: none;}
+
+@media screen and (max-width:1300px) {
+    #contact {float: none; width: 100%;}
 @media screen and (max-width:640px) {
     img {float: left; padding: 20px; margin: 20px;}
     div {clear: left; width: 90%; padding:20px;}
@@ -102,8 +128,8 @@ img#envelope {background-color: white; padding: 17px;}
     img {padding-top: 150px; padding-bottom: 0;}
     div.paragraph {clear: left; width:100%;}
     header {position: relative;
-            height: 80px;
-            display: block;
+        height: 80px;
+        display: block;
         width: 90%;}}
 @media screen and (max-width: 1200px){
         .resume {width: 100px;}}
@@ -120,7 +146,9 @@ img#envelope {background-color: white; padding: 17px;}
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;}
+    height: 100%;} 
+    .table-scroller {overflow: scroll;
+        width: 480px;}
 }
 @media print {
     *{background: transparent !important;
