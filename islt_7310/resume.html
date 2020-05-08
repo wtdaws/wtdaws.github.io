@@ -15,7 +15,7 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: March 25, 2020
 
-Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
+Tested:  May 7, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
@@ -24,17 +24,23 @@ Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
         <title>Formatting Text-Headings</title>
         <link rel="stylesheet" href="style.css">
         <link rel= "stylesheet" href= "nav.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
         <style>
-            .resume {margin-top: 50px; margin-right: 1000px; margin-bottom:20px; margin-left: 40px;}
-            .resume {width: 100px; text-align: center; background-color: #332F2E;}
+            .resume {margin-left: 50px;
+                width: 150px; 
+                text-align: center;
+                background-color: #332F2E;
+                border-radius: 2em;
+                text-decoration: none;
+                font-size: 1.5em;}
+            .resume a {text-decoration: none;}
             a:link {color: white;}
             a:visited {color: white;}
             a:active {color: aqua;}
             a:hover {color: aqua;}
             a:focus {color: aqua;}
-            .resume {text-decoration: none; font-size: 32pt;}
             a#resume {font-size: 16pt;}
             img#phone {text-decoration: none;}
         </style>
@@ -62,17 +68,13 @@ Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
             <h1>Resume</h1>
         </header>
         
-        <main>    
-         
-        
-            <p class="resume"><a id="resume" href="../islt_7310/docs/Dawsonresume.pdf">Resume</a></p>
-            
-            <div class="video">
-                <video width=550 controls>
+        <main>
+            <p class="resume"><a id="resume" href="../islt_7310/docs/Dawsonresume.pdf">Resume</a></p><br>
+            <figure class="video">
+                <video id="vid1" width=550 controls>
                     <source src="images/Wendy%20Dawson%20Resume.mp4" type="video/mp4"></video>
-                <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/AW1wBbfdx_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></-->
-            </div>
-        
+                <figcaption id="Benj">Video edited by Benjamin Dawson.</figcaption>
+            </figure><br><br><br>
         </main>  
         
           <footer id="resumepg">
@@ -80,7 +82,7 @@ Tested:  May 1, 2020; Passed on Internet Explorer and Chrome browsers.
            <em>&nbsp;&nbsp;wd7t6@mail.missouri.edu</em></a></p>
             
             <a target="_blank" href="https://icons8.com/icons/set/phone">Phone icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><a target="_blank" href="https://icons8.com/icons/set/filled-message"><br>Envelope icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-            <p>Image is a crop of “Library books”  © 2007 timetrax23, ShareAlike 2.0 Generic license https://www.flickr.com/photos/timetrax/376152628/in/photostream/</p> 
+            <p id="ftcredit">Image is a crop of “Library books”  © 2007 timetrax23, ShareAlike 2.0 Generic license https://www.flickr.com/photos/timetrax/376152628/in/photostream/</p> 
         </footer>
     </body>
 </html>
